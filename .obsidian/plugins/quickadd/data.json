@@ -1,0 +1,147 @@
+{
+  "choices": [
+    {
+      "id": "c05505d8-114d-41d7-9a37-385abe4f421f",
+      "name": "Add DND campaign",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/DND/DND - Campaign.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "DND/{{VALUE}}/campaign"
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "bd3edb67-acac-4520-8433-d000a80f7492",
+      "name": "Add session",
+      "type": "Macro",
+      "command": true,
+      "macroId": "99846c57-fb43-4ef1-8dd1-ae7ba95659ff"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add session",
+      "id": "99846c57-fb43-4ef1-8dd1-ae7ba95659ff",
+      "commands": [
+        {
+          "name": "getThisGameFilename",
+          "type": "UserScript",
+          "id": "5458edf0-70c9-4622-b3de-b5d85235606f",
+          "path": "Scripts/getThisGameFilename.js",
+          "settings": {}
+        },
+        {
+          "name": "Create new file",
+          "type": "NestedChoice",
+          "id": "2962387f-7ae5-40ae-b327-f1b2d93100c2",
+          "choice": {
+            "id": "b487f743-4fee-4191-8409-720a9561ae2d",
+            "name": "Create new file",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/DND/DND - Session.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:numOfGames}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "{{VALUE:folderName}}/Sessions"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "0.14.0",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true,
+    "providers": [
+      {
+        "name": "OpenAI",
+        "endpoint": "https://api.openai.com/v1",
+        "apiKey": "",
+        "models": [
+          {
+            "name": "gpt-3.5-turbo",
+            "maxTokens": 4096
+          },
+          {
+            "name": "gpt-3.5-turbo-16k",
+            "maxTokens": 16384
+          },
+          {
+            "name": "gpt-3.5-turbo-1106",
+            "maxTokens": 16385
+          },
+          {
+            "name": "gpt-4",
+            "maxTokens": 8192
+          },
+          {
+            "name": "gpt-4-32k",
+            "maxTokens": 32768
+          },
+          {
+            "name": "gpt-4-1106-preview",
+            "maxTokens": 128000
+          },
+          {
+            "name": "text-davinci-003",
+            "maxTokens": 4096
+          }
+        ]
+      }
+    ]
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": false,
+    "addDefaultAIProviders": false
+  }
+}

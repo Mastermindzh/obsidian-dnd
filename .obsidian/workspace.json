@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "855cf296f7c4d196",
+    "type": "split",
+    "children": [
+      {
+        "id": "feab180271b6d8ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "606cacc37b73d72b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19cc5f7dcaf35a2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DND/Example campaign/campaign.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ea45aa6a774cbca4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6955e667830c9a36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "39ac474f0faa2afd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8ee76ec472435bf8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1432a8a6e2e6844",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6a4f90a7722ed63e",
+    "type": "split",
+    "children": [
+      {
+        "id": "30ae2995b7e707ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef4c316cee0205ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a586366c2aecaf3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "README.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b77d24a7210e76f2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6ccaa6b349b1c438",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "README.md"
+              }
+            }
+          },
+          {
+            "id": "1de54efb2dfcb249",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "templater-obsidian:Templater": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "39ac474f0faa2afd",
+  "lastOpenFiles": [
+    "attachments/Pasted image 20240322224532.png",
+    "attachments/Pasted image 20240322220331.png",
+    "attachments",
+    "README.md",
+    "attachments/Pasted image 20240322224325.png",
+    "attachments/Pasted image 20240322224150.png",
+    "attachments/Pasted image 20240322224052.png",
+    "DND/Example campaign/campaign.md",
+    "attachments/Pasted image 20240322223040.png",
+    "DND/Example campaign/Locations/Heart of Ubtoa.md",
+    "DND/Example campaign/Creatures/Zombie (summoned).md",
+    "DND/Example campaign/Creatures/attachments/Pasted image 20231216004414.png",
+    "DND/Example campaign/Creatures/attachments/Pasted image 20231216004357.png",
+    "DND/Game list.md",
+    "Templates/DND/DND - Campaign.md",
+    "Templates/DND/DND - Faction.md",
+    "Templates/DND/DND - Frontmatter.md",
+    "Templates/DND/DND - Location.md",
+    "Templates/DND/DND - NPC.md"
+  ]
+}

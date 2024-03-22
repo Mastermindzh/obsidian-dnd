@@ -1,0 +1,162 @@
+{
+  "mapMarkers": [
+    {
+      "id": "heart-of-ubtoa-location-map",
+      "locked": true,
+      "lastAccessed": 1711141543313,
+      "markers": [
+        {
+          "id": "ID_7a59b8480bea",
+          "type": "default",
+          "loc": [
+            -1.01031494140625,
+            1.09765625
+          ],
+          "layer": "..%2Fattachments%2Fheart.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Cave entrance",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_4afa5b9a5959",
+          "type": "default",
+          "loc": [
+            -0.63531494140625,
+            0.9375
+          ],
+          "layer": "..%2Fattachments%2Fheart.png",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Tree which provides light & air inside cave.",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "DND/Example campaign/Locations/Heart of Ubtoa.md"
+      ]
+    },
+    {
+      "id": "<% tp.file.folder(false) %>-world-map",
+      "locked": true,
+      "lastAccessed": 1711144211695,
+      "markers": [
+        {
+          "id": "ID_8b7b5a7b0a2b",
+          "type": "default",
+          "loc": [
+            -0.1911163330078125,
+            0.1904296875
+          ],
+          "link": "Heart of Ubtoa",
+          "layer": "attachments%2Fworld-placeholder.jpg",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": "Click to open location",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "DND/Example campaign/campaign.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker-alt",
+    "color": "#ff0000",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    },
+    "isImage": false
+  },
+  "markerIcons": [
+    {
+      "type": "Unknown item",
+      "iconName": "question-circle",
+      "color": "#b30000",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "NPC",
+      "iconName": "address-card",
+      "color": "#ff0000",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Choice",
+      "iconName": "random",
+      "color": "#ff0000",
+      "alpha": 1,
+      "layer": false,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.2",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 2
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {},
+  "enableDraw": false,
+  "defaultUnitType": "imperial",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}
